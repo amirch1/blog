@@ -1,0 +1,63 @@
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>CanvasBackground.as</title>
+<link rel="stylesheet" type="text/css" href="../../../../../SourceStyles.css"/>
+</head>
+
+<body><pre><span class="ActionScriptpackage">package</span> <span class="ActionScriptDefault_Text">uk</span>.<span class="ActionScriptDefault_Text">co</span>.<span class="ActionScriptDefault_Text">creacog</span>.<span class="ActionScriptDefault_Text">skins</span>
+<span class="ActionScriptBracket/Brace">{</span>
+    <span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">mx</span>.<span class="ActionScriptDefault_Text">skins</span>.<span class="ActionScriptDefault_Text">RectangularBorder</span>;
+    <span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">flash</span>.<span class="ActionScriptDefault_Text">display</span>.<span class="ActionScriptDefault_Text">BitmapData</span>;
+    <span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">flash</span>.<span class="ActionScriptDefault_Text">display</span>.<span class="ActionScriptDefault_Text">Bitmap</span>;
+
+    <span class="ActionScriptReserved">public</span> <span class="ActionScriptclass">class</span> <span class="ActionScriptDefault_Text">CanvasBackground</span> <span class="ActionScriptReserved">extends</span> <span class="ActionScriptDefault_Text">RectangularBorder</span>
+    <span class="ActionScriptBracket/Brace">{</span>
+         <span class="ActionScriptBracket/Brace">[</span> <span class="ActionScriptDefault_Text">Embed</span><span class="ActionScriptBracket/Brace">(</span> <span class="ActionScriptDefault_Text">source</span><span class="ActionScriptOperator">=</span><span class="ActionScriptString">&apos;Grid_Pattern.gif&apos;</span> <span class="ActionScriptBracket/Brace">)</span> <span class="ActionScriptBracket/Brace">]</span>
+         <span class="ActionScriptReserved">private</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">backgroundImageClass</span>    <span class="ActionScriptOperator">:</span><span class="ActionScriptDefault_Text">Class</span>;
+        <span class="ActionScriptReserved">private</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">backgroundBitmapData</span>    <span class="ActionScriptOperator">:</span><span class="ActionScriptDefault_Text">BitmapData</span>;
+<span class="ActionScriptASDoc">/**
+ *  Constructor     
+ */</span>
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">CanvasBackground</span><span class="ActionScriptBracket/Brace">()</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptReserved">super</span><span class="ActionScriptBracket/Brace">()</span>;             
+<span class="ActionScriptComment">/*
+ * we need to get the bitmap data of our image
+ */</span>     
+             <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">backgroundImage</span><span class="ActionScriptOperator">:</span><span class="ActionScriptDefault_Text">Bitmap</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptReserved">new</span> <span class="ActionScriptDefault_Text">backgroundImageClass</span><span class="ActionScriptBracket/Brace">()</span>;
+             
+               <span class="ActionScriptDefault_Text">backgroundBitmapData</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptReserved">new</span> <span class="ActionScriptDefault_Text">BitmapData</span><span class="ActionScriptBracket/Brace">(</span>    <span class="ActionScriptDefault_Text">backgroundImage</span>.<span class="ActionScriptDefault_Text">width</span>,    
+                                                       <span class="ActionScriptDefault_Text">backgroundImage</span>.<span class="ActionScriptDefault_Text">height</span> <span class="ActionScriptBracket/Brace">)</span>;
+                        
+             <span class="ActionScriptDefault_Text">backgroundBitmapData</span>.<span class="ActionScriptDefault_Text">draw</span><span class="ActionScriptBracket/Brace">(</span> <span class="ActionScriptDefault_Text">backgroundImage</span> <span class="ActionScriptBracket/Brace">)</span>;            
+        <span class="ActionScriptBracket/Brace">}</span>        
+        
+        <span class="ActionScriptReserved">override</span> <span class="ActionScriptReserved">protected</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">updateDisplayList</span><span class="ActionScriptBracket/Brace">(</span>    <span class="ActionScriptDefault_Text">unscaledWidth</span><span class="ActionScriptOperator">:</span><span class="ActionScriptDefault_Text">Number</span>,
+                                                        <span class="ActionScriptDefault_Text">unscaledHeight</span><span class="ActionScriptOperator">:</span><span class="ActionScriptDefault_Text">Number</span> <span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptOperator">:</span><span class="ActionScriptReserved">void</span> 
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptReserved">super</span>.<span class="ActionScriptDefault_Text">updateDisplayList</span><span class="ActionScriptBracket/Brace">(</span>    <span class="ActionScriptDefault_Text">unscaledWidth</span>,
+                                        <span class="ActionScriptDefault_Text">unscaledHeight</span> <span class="ActionScriptBracket/Brace">)</span>;
+            
+            <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">cornerRadius</span><span class="ActionScriptOperator">:</span><span class="ActionScriptDefault_Text">Number</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptDefault_Text">getStyle</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptString">&quot;cornerRadius&quot;</span><span class="ActionScriptBracket/Brace">)</span>;
+            
+            <span class="ActionScriptDefault_Text">graphics</span>.<span class="ActionScriptDefault_Text">clear</span><span class="ActionScriptBracket/Brace">()</span>;
+            
+            <span class="ActionScriptDefault_Text">graphics</span>.<span class="ActionScriptDefault_Text">beginBitmapFill</span><span class="ActionScriptBracket/Brace">(</span> <span class="ActionScriptDefault_Text">backgroundBitmapData</span> <span class="ActionScriptBracket/Brace">)</span>;
+            
+            <span class="ActionScriptDefault_Text">graphics</span>.<span class="ActionScriptDefault_Text">drawRoundRectComplex</span><span class="ActionScriptBracket/Brace">(</span>    0,
+                                            0,
+                                            <span class="ActionScriptDefault_Text">unscaledWidth</span>,
+                                            <span class="ActionScriptDefault_Text">unscaledHeight</span>,
+                                            <span class="ActionScriptDefault_Text">cornerRadius</span>,
+                                            <span class="ActionScriptDefault_Text">cornerRadius</span>,
+                                            <span class="ActionScriptDefault_Text">cornerRadius</span>,
+                                            <span class="ActionScriptDefault_Text">cornerRadius</span> <span class="ActionScriptBracket/Brace">)</span>;
+            
+            <span class="ActionScriptDefault_Text">graphics</span>.<span class="ActionScriptDefault_Text">endFill</span><span class="ActionScriptBracket/Brace">()</span>;
+        <span class="ActionScriptBracket/Brace">}</span>        
+    <span class="ActionScriptBracket/Brace">}</span>
+<span class="ActionScriptBracket/Brace">}</span></pre></body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sites>
+	<site>
+		<ID>1234</ID>
+		<Name>MSN.com</Name>
+		<CTR>2.3</CTR>
+		<DwellRate>1.67</DwellRate>
+		<DwellDuration>3.23</DwellDuration>
+		<IR>4.32</IR>
+		<UIER>0.56</UIER>
+		<VSR>2.45</VSR>
+		<VFPR>0.3</VFPR>
+	</site>
+	<site>
+		<ID>2345</ID>
+		<Name>Yahoo.com</Name>
+		<CTR>3.45</CTR>
+		<DwellRate>2.04</DwellRate>
+		<DwellDuration>4.52</DwellDuration>
+		<IR>3.51</IR>
+		<UIER>0.74</UIER>
+		<VSR>3.23</VSR>
+		<VFPR>0.68</VFPR>		
+	</site>
+	<site>
+		<ID>3456</ID>
+		<Name>eBay.com</Name>
+		<CTR>1.85</CTR>
+		<DwellRate>2.71</DwellRate>
+		<DwellDuration>2.49</DwellDuration>
+		<IR>3.95</IR>
+		<UIER>0.82</UIER>
+		<VSR>3.82</VSR>
+		<VFPR>0.72</VFPR>		
+	</site>	
+	<site>
+		<ID>3455</ID>
+		<Name>ESPN.com</Name>
+		<CTR>3.52</CTR>
+		<DwellRate>3.25</DwellRate>
+		<DwellDuration>1.37</DwellDuration>
+		<IR>4.18</IR>
+		<UIER>1.37</UIER>
+		<VSR>4.19</VSR>
+		<VFPR>1.23</VFPR>		
+	</site>		
+</sites>

@@ -1,0 +1,21 @@
+/* CSS file */
+Application{
+	backgroundColor: #FAFAFA;
+	backgroundGradientColors: #FAFAFA,#FAFAFA;
+	fontFamily: Arial;
+	fontSize: 11;
+	color: #666666;
+}
+DataGrid{
+	borderStyle: none; 
+	headerSeparatorSkin: Embed(source='../assets/seperator.png'); 
+	horizontalGridLines: false; 
+	verticalGridLineColor: #ffffff;
+	alternatingItemColors: #ffffff,#f5f5f5;
+	headerColors: #eeeeee,#eeeeee;
+	headerStyleName: dgHeader;
+}
+.dgHeader{
+	fontWeight: bold;
+	fontColor: #333333;
+}

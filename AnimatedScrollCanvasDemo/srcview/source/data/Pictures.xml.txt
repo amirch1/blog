@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pictures>
+	<picture>
+		<Name>Blue Hills</Name>
+		<URL>images/Blue_hills.jpg</URL>
+		<Thumbnail>images/Blue_hills_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Cone Flowers</Name>
+		<URL>images/Cone_Flowers.jpg</URL>
+		<Thumbnail>images/Cone_Flowers_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Red Roses</Name>
+		<URL>images/roses.jpg</URL>
+		<Thumbnail>images/roses_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>The Ocean</Name>
+		<URL>images/ocean.jpg</URL>
+		<Thumbnail>images/ocean_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Blue Lake</Name>
+		<URL>images/lake.jpg</URL>
+		<Thumbnail>images/lake_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Sunset Over The Sea</Name>
+		<URL>images/Sunset.jpg</URL>
+		<Thumbnail>images/Sunset_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Water Lilies</Name>
+		<URL>images/Water_lilies.jpg</URL>
+		<Thumbnail>images/Water_lilies_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Winter Trees</Name>
+		<URL>images/Winter.jpg</URL>
+		<Thumbnail>images/Winter_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Rocky Mountains</Name>
+		<URL>images/rocky-mountains.jpg</URL>
+		<Thumbnail>images/rocky-mountains_tn.jpg</Thumbnail>
+	</picture>								
+	<picture>
+		<Name>Blue Hills</Name>
+		<URL>images/Blue_hills.jpg</URL>
+		<Thumbnail>images/Blue_hills_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Cone Flowers</Name>
+		<URL>images/Cone_Flowers.jpg</URL>
+		<Thumbnail>images/Cone_Flowers_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Red Roses</Name>
+		<URL>images/roses.jpg</URL>
+		<Thumbnail>images/roses_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>The Ocean</Name>
+		<URL>images/ocean.jpg</URL>
+		<Thumbnail>images/ocean_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Blue Lake</Name>
+		<URL>images/lake.jpg</URL>
+		<Thumbnail>images/lake_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Sunset Over The Sea</Name>
+		<URL>images/Sunset.jpg</URL>
+		<Thumbnail>images/Sunset_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Water Lilies</Name>
+		<URL>images/Water_lilies.jpg</URL>
+		<Thumbnail>images/Water_lilies_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Winter Trees</Name>
+		<URL>images/Winter.jpg</URL>
+		<Thumbnail>images/Winter_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Rocky Mountains</Name>
+		<URL>images/rocky-mountains.jpg</URL>
+		<Thumbnail>images/rocky-mountains_tn.jpg</Thumbnail>
+	</picture>								
+	<picture>
+		<Name>Blue Hills</Name>
+		<URL>images/Blue_hills.jpg</URL>
+		<Thumbnail>images/Blue_hills_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Cone Flowers</Name>
+		<URL>images/Cone_Flowers.jpg</URL>
+		<Thumbnail>images/Cone_Flowers_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Red Roses</Name>
+		<URL>images/roses.jpg</URL>
+		<Thumbnail>images/roses_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>The Ocean</Name>
+		<URL>images/ocean.jpg</URL>
+		<Thumbnail>images/ocean_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Blue Lake</Name>
+		<URL>images/lake.jpg</URL>
+		<Thumbnail>images/lake_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Sunset Over The Sea</Name>
+		<URL>images/Sunset.jpg</URL>
+		<Thumbnail>images/Sunset_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Water Lilies</Name>
+		<URL>images/Water_lilies.jpg</URL>
+		<Thumbnail>images/Water_lilies_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Winter Trees</Name>
+		<URL>images/Winter.jpg</URL>
+		<Thumbnail>images/Winter_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Rocky Mountains</Name>
+		<URL>images/rocky-mountains.jpg</URL>
+		<Thumbnail>images/rocky-mountains_tn.jpg</Thumbnail>
+	</picture>								
+	<picture>
+		<Name>Blue Hills</Name>
+		<URL>images/Blue_hills.jpg</URL>
+		<Thumbnail>images/Blue_hills_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Cone Flowers</Name>
+		<URL>images/Cone_Flowers.jpg</URL>
+		<Thumbnail>images/Cone_Flowers_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Red Roses</Name>
+		<URL>images/roses.jpg</URL>
+		<Thumbnail>images/roses_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>The Ocean</Name>
+		<URL>images/ocean.jpg</URL>
+		<Thumbnail>images/ocean_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Blue Lake</Name>
+		<URL>images/lake.jpg</URL>
+		<Thumbnail>images/lake_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Sunset Over The Sea</Name>
+		<URL>images/Sunset.jpg</URL>
+		<Thumbnail>images/Sunset_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Water Lilies</Name>
+		<URL>images/Water_lilies.jpg</URL>
+		<Thumbnail>images/Water_lilies_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Winter Trees</Name>
+		<URL>images/Winter.jpg</URL>
+		<Thumbnail>images/Winter_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Rocky Mountains</Name>
+		<URL>images/rocky-mountains.jpg</URL>
+		<Thumbnail>images/rocky-mountains_tn.jpg</Thumbnail>
+	</picture>								
+	<picture>
+		<Name>Blue Hills</Name>
+		<URL>images/Blue_hills.jpg</URL>
+		<Thumbnail>images/Blue_hills_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Cone Flowers</Name>
+		<URL>images/Cone_Flowers.jpg</URL>
+		<Thumbnail>images/Cone_Flowers_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Red Roses</Name>
+		<URL>images/roses.jpg</URL>
+		<Thumbnail>images/roses_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>The Ocean</Name>
+		<URL>images/ocean.jpg</URL>
+		<Thumbnail>images/ocean_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Blue Lake</Name>
+		<URL>images/lake.jpg</URL>
+		<Thumbnail>images/lake_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Sunset Over The Sea</Name>
+		<URL>images/Sunset.jpg</URL>
+		<Thumbnail>images/Sunset_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Water Lilies</Name>
+		<URL>images/Water_lilies.jpg</URL>
+		<Thumbnail>images/Water_lilies_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Winter Trees</Name>
+		<URL>images/Winter.jpg</URL>
+		<Thumbnail>images/Winter_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Rocky Mountains</Name>
+		<URL>images/rocky-mountains.jpg</URL>
+		<Thumbnail>images/rocky-mountains_tn.jpg</Thumbnail>
+	</picture>								
+	<picture>
+		<Name>Blue Hills</Name>
+		<URL>images/Blue_hills.jpg</URL>
+		<Thumbnail>images/Blue_hills_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Cone Flowers</Name>
+		<URL>images/Cone_Flowers.jpg</URL>
+		<Thumbnail>images/Cone_Flowers_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Red Roses</Name>
+		<URL>images/roses.jpg</URL>
+		<Thumbnail>images/roses_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>The Ocean</Name>
+		<URL>images/ocean.jpg</URL>
+		<Thumbnail>images/ocean_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Blue Lake</Name>
+		<URL>images/lake.jpg</URL>
+		<Thumbnail>images/lake_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Sunset Over The Sea</Name>
+		<URL>images/Sunset.jpg</URL>
+		<Thumbnail>images/Sunset_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Water Lilies</Name>
+		<URL>images/Water_lilies.jpg</URL>
+		<Thumbnail>images/Water_lilies_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Winter Trees</Name>
+		<URL>images/Winter.jpg</URL>
+		<Thumbnail>images/Winter_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Rocky Mountains</Name>
+		<URL>images/rocky-mountains.jpg</URL>
+		<Thumbnail>images/rocky-mountains_tn.jpg</Thumbnail>
+	</picture>								
+	<picture>
+		<Name>Blue Hills</Name>
+		<URL>images/Blue_hills.jpg</URL>
+		<Thumbnail>images/Blue_hills_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Cone Flowers</Name>
+		<URL>images/Cone_Flowers.jpg</URL>
+		<Thumbnail>images/Cone_Flowers_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Red Roses</Name>
+		<URL>images/roses.jpg</URL>
+		<Thumbnail>images/roses_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>The Ocean</Name>
+		<URL>images/ocean.jpg</URL>
+		<Thumbnail>images/ocean_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Blue Lake</Name>
+		<URL>images/lake.jpg</URL>
+		<Thumbnail>images/lake_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Sunset Over The Sea</Name>
+		<URL>images/Sunset.jpg</URL>
+		<Thumbnail>images/Sunset_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Water Lilies</Name>
+		<URL>images/Water_lilies.jpg</URL>
+		<Thumbnail>images/Water_lilies_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Winter Trees</Name>
+		<URL>images/Winter.jpg</URL>
+		<Thumbnail>images/Winter_tn.jpg</Thumbnail>
+	</picture>
+	<picture>
+		<Name>Rocky Mountains</Name>
+		<URL>images/rocky-mountains.jpg</URL>
+		<Thumbnail>images/rocky-mountains_tn.jpg</Thumbnail>
+	</picture>								
+</pictures>

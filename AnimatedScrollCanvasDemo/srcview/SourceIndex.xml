@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of AnimatedScrollCanvasDemo</title>
+	<nodes>
+		<node label="html-template">
+			<node label="history">
+				<node icon="cssIcon" label="history.css" url="source/html-template/history/history.css.html"/>
+				<node label="history.js" url="source/html-template/history/history.js.txt"/>
+				<node icon="htmlIcon" label="historyFrame.html" url="source/html-template/history/historyFrame.html"/>
+			</node>
+			<node icon="htmlIcon" label="index.template.html" url="source/html-template/index.template.html"/>
+			<node icon="swfIcon" label="playerProductInstall.swf" url="source/html-template/playerProductInstall.swf"/>
+			<node label="swfobject.js" url="source/html-template/swfobject.js.txt"/>
+		</node>
+		<node label="libs">
+		</node>
+		<node label="src">
+			<node icon="packageIcon" label="com" expanded="true">
+				<node icon="actionScriptIcon" label="AnimatedScrollCanvas.as" url="source/com/AnimatedScrollCanvas.as.html"/>
+			</node>
+			<node label="data">
+				<node label="Pictures.xml" url="source/data/Pictures.xml.txt"/>
+			</node>
+			<node label="images">
+				<node icon="imageIcon" label="Blue_hills.jpg" url="source/images/Blue_hills.jpg.html"/>
+				<node icon="imageIcon" label="Blue_hills_tn.jpg" url="source/images/Blue_hills_tn.jpg.html"/>
+				<node icon="imageIcon" label="Cone_Flowers.jpg" url="source/images/Cone_Flowers.jpg.html"/>
+				<node icon="imageIcon" label="Cone_Flowers_tn.jpg" url="source/images/Cone_Flowers_tn.jpg.html"/>
+				<node icon="imageIcon" label="lake.jpg" url="source/images/lake.jpg.html"/>
+				<node icon="imageIcon" label="lake_tn.jpg" url="source/images/lake_tn.jpg.html"/>
+				<node icon="imageIcon" label="ocean.jpg" url="source/images/ocean.jpg.html"/>
+				<node icon="imageIcon" label="ocean_tn.jpg" url="source/images/ocean_tn.jpg.html"/>
+				<node icon="imageIcon" label="rocky-mountains.jpg" url="source/images/rocky-mountains.jpg.html"/>
+				<node icon="imageIcon" label="rocky-mountains_tn.jpg" url="source/images/rocky-mountains_tn.jpg.html"/>
+				<node icon="imageIcon" label="roses.jpg" url="source/images/roses.jpg.html"/>
+				<node icon="imageIcon" label="roses_tn.jpg" url="source/images/roses_tn.jpg.html"/>
+				<node icon="imageIcon" label="Sunset.jpg" url="source/images/Sunset.jpg.html"/>
+				<node icon="imageIcon" label="Sunset_tn.jpg" url="source/images/Sunset_tn.jpg.html"/>
+				<node icon="imageIcon" label="Water_lilies.jpg" url="source/images/Water_lilies.jpg.html"/>
+				<node icon="imageIcon" label="Water_lilies_tn.jpg" url="source/images/Water_lilies_tn.jpg.html"/>
+				<node icon="imageIcon" label="Winter.jpg" url="source/images/Winter.jpg.html"/>
+				<node icon="imageIcon" label="Winter_tn.jpg" url="source/images/Winter_tn.jpg.html"/>
+			</node>
+			<node icon="packageIcon" label="renderers" expanded="true">
+				<node icon="mxmlIcon" label="imageRenderer.mxml" url="source/renderers/imageRenderer.mxml.html"/>
+			</node>
+			<node icon="mxmlAppIcon" selected="true" label="AnimatedScrollCanvasDemo.mxml" url="source/AnimatedScrollCanvasDemo.mxml.html"/>
+		</node>
+		<node label="AnimatedScrollCanvasDemo.zip" url="source/AnimatedScrollCanvasDemo.zip"/>
+	</nodes>
+	<zipfile label="Download source (ZIP, 2762K)" url="AnimatedScrollCanvasDemo.zip">
+	</zipfile>
+	<sdklink label="Download Flex SDK" url="http://www.adobe.com/go/flex4_sdk_download">
+	</sdklink>
+</index>

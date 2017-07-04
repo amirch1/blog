@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of ExtendMXML</title>
+	<nodes>
+		<node label="libs">
+		</node>
+		<node label="src">
+			<node icon="packageIcon" label="com" expanded="true">
+				<node icon="mxmlIcon" label="ViewsPanel.mxml" url="source/com/ViewsPanel.mxml.html"/>
+			</node>
+			<node icon="mxmlAppIcon" selected="true" label="ExtendMXML.mxml" url="source/ExtendMXML.mxml.html"/>
+		</node>
+	</nodes>
+	<zipfile label="Download source (ZIP, 3K)" url="ExtendMXML.zip">
+	</zipfile>
+	<sdklink label="Download Flex SDK" url="http://www.adobe.com/go/flex4_sdk_download">
+	</sdklink>
+</index>

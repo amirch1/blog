@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of ObjectHandlesZorder</title>
+	<nodes>
+		<node label="html-template">
+			<node label="history">
+				<node icon="cssIcon" label="history.css" url="source/html-template/history/history.css.html"/>
+				<node label="history.js" url="source/html-template/history/history.js.txt"/>
+				<node icon="htmlIcon" label="historyFrame.html" url="source/html-template/history/historyFrame.html"/>
+			</node>
+			<node icon="htmlIcon" label="index.template.html" url="source/html-template/index.template.html"/>
+			<node icon="swfIcon" label="playerProductInstall.swf" url="source/html-template/playerProductInstall.swf"/>
+			<node label="swfobject.js" url="source/html-template/swfobject.js.txt"/>
+		</node>
+		<node label="libs">
+		</node>
+		<node label="src">
+			<node label="assets">
+				<node icon="imageIcon" label="pic1.jpg" url="source/assets/pic1.jpg.html"/>
+				<node icon="imageIcon" label="pic2.jpg" url="source/assets/pic2.jpg.html"/>
+				<node icon="imageIcon" label="pic3.jpg" url="source/assets/pic3.jpg.html"/>
+				<node icon="imageIcon" label="pic4.jpg" url="source/assets/pic4.jpg.html"/>
+				<node icon="imageIcon" label="pic5.jpg" url="source/assets/pic5.jpg.html"/>
+			</node>
+			<node icon="packageIcon" label="com.roguedevelopment.objecthandles" expanded="true">
+				<node icon="actionScriptIcon" label="CircleHandle.as" url="source/com/roguedevelopment/objecthandles/CircleHandle.as.html"/>
+				<node icon="actionScriptIcon" label="DragGeometry.as" url="source/com/roguedevelopment/objecthandles/DragGeometry.as.html"/>
+				<node icon="actionScriptIcon" label="Flex3ChildManager.as" url="source/com/roguedevelopment/objecthandles/Flex3ChildManager.as.html"/>
+				<node icon="actionScriptIcon" label="Flex4ChildManager.as" url="source/com/roguedevelopment/objecthandles/Flex4ChildManager.as.html"/>
+				<node icon="actionScriptIcon" label="Flex4HandleFactory.as" url="source/com/roguedevelopment/objecthandles/Flex4HandleFactory.as.html"/>
+				<node icon="actionScriptIcon" label="HandleClickedEvent.as" url="source/com/roguedevelopment/objecthandles/HandleClickedEvent.as.html"/>
+				<node icon="actionScriptIcon" label="HandleDefinitions.as" url="source/com/roguedevelopment/objecthandles/HandleDefinitions.as.html"/>
+				<node icon="actionScriptIcon" label="HandleDescription.as" url="source/com/roguedevelopment/objecthandles/HandleDescription.as.html"/>
+				<node icon="actionScriptIcon" label="HandleRoles.as" url="source/com/roguedevelopment/objecthandles/HandleRoles.as.html"/>
+				<node icon="actionScriptIcon" label="IChildManager.as" url="source/com/roguedevelopment/objecthandles/IChildManager.as.html"/>
+				<node icon="actionScriptIcon" label="IConstraint.as" url="source/com/roguedevelopment/objecthandles/IConstraint.as.html"/>
+				<node icon="actionScriptIcon" label="IHandle.as" url="source/com/roguedevelopment/objecthandles/IHandle.as.html"/>
+				<node icon="actionScriptIcon" label="IMoveable.as" url="source/com/roguedevelopment/objecthandles/IMoveable.as.html"/>
+				<node icon="actionScriptIcon" label="IResizeable.as" url="source/com/roguedevelopment/objecthandles/IResizeable.as.html"/>
+				<node icon="actionScriptIcon" label="ObjectChangedEvent.as" url="source/com/roguedevelopment/objecthandles/ObjectChangedEvent.as.html"/>
+				<node icon="actionScriptIcon" label="ObjectHandles.as" url="source/com/roguedevelopment/objecthandles/ObjectHandles.as.html"/>
+				<node icon="actionScriptIcon" label="ObjectHandlesSelectionManager.as" url="source/com/roguedevelopment/objecthandles/ObjectHandlesSelectionManager.as.html"/>
+				<node icon="actionScriptIcon" label="SelectionEvent.as" url="source/com/roguedevelopment/objecthandles/SelectionEvent.as.html"/>
+				<node icon="actionScriptIcon" label="SpriteHandle.as" url="source/com/roguedevelopment/objecthandles/SpriteHandle.as.html"/>
+				<node icon="actionScriptIcon" label="VisualElementHandle.as" url="source/com/roguedevelopment/objecthandles/VisualElementHandle.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.roguedevelopment.objecthandles.constraints" expanded="true">
+				<node icon="actionScriptIcon" label="MaintainProportionConstraint.as" url="source/com/roguedevelopment/objecthandles/constraints/MaintainProportionConstraint.as.html"/>
+				<node icon="actionScriptIcon" label="MovementConstraint.as" url="source/com/roguedevelopment/objecthandles/constraints/MovementConstraint.as.html"/>
+				<node icon="actionScriptIcon" label="SizeConstraint.as" url="source/com/roguedevelopment/objecthandles/constraints/SizeConstraint.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.roguedevelopment.objecthandles.decorators" expanded="true">
+				<node icon="actionScriptIcon" label="AlignmentDecorator.as" url="source/com/roguedevelopment/objecthandles/decorators/AlignmentDecorator.as.html"/>
+				<node icon="actionScriptIcon" label="DecoratorManager.as" url="source/com/roguedevelopment/objecthandles/decorators/DecoratorManager.as.html"/>
+				<node icon="actionScriptIcon" label="IDecorator.as" url="source/com/roguedevelopment/objecthandles/decorators/IDecorator.as.html"/>
+				<node icon="actionScriptIcon" label="OutlineDecorator.as" url="source/com/roguedevelopment/objecthandles/decorators/OutlineDecorator.as.html"/>
+				<node icon="actionScriptIcon" label="WebDecorator.as" url="source/com/roguedevelopment/objecthandles/decorators/WebDecorator.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.roguedevelopment.objecthandles.example" expanded="true">
+				<node icon="mxmlIcon" label="DegrafaHandle.mxml" url="source/com/roguedevelopment/objecthandles/example/DegrafaHandle.mxml.html"/>
+				<node icon="actionScriptIcon" label="MoveableTextArea.as" url="source/com/roguedevelopment/objecthandles/example/MoveableTextArea.as.html"/>
+				<node icon="actionScriptIcon" label="SimpleDataModel.as" url="source/com/roguedevelopment/objecthandles/example/SimpleDataModel.as.html"/>
+				<node icon="mxmlIcon" label="SimpleFlex4Shape.mxml" url="source/com/roguedevelopment/objecthandles/example/SimpleFlex4Shape.mxml.html"/>
+				<node icon="actionScriptIcon" label="SimpleSpriteShape.as" url="source/com/roguedevelopment/objecthandles/example/SimpleSpriteShape.as.html"/>
+				<node icon="actionScriptIcon" label="TextDataModel.as" url="source/com/roguedevelopment/objecthandles/example/TextDataModel.as.html"/>
+			</node>
+			<node icon="mxmlAppIcon" selected="true" label="ObjectHandlesZorder.mxml" url="source/ObjectHandlesZorder.mxml.html"/>
+		</node>
+	</nodes>
+	<zipfile label="Download source (ZIP, 82K)" url="ObjectHandlesZorder.zip">
+	</zipfile>
+	<sdklink label="Download Flex SDK" url="http://www.adobe.com/go/flex4_sdk_download">
+	</sdklink>
+</index>
