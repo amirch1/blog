@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="Convert key / value pairs to JSON objects. Perfect for converting .ini files, Flex localization files (i18n) and config files to JSON objects or arrays.">
+    <meta name="keywords" content="JSON,Key,Value,INI,Config,Localization,i18n,Flex,HTML,JavaScript">
+    <meta name="author" content="HAmir Chervinsky">
+    <title>Free Online Text to JSON Converter</title>
+
+    <script>
+      var saveAs=saveAs||function(a){if(!("undefined"===typeof a||"undefined"!==typeof navigator&&/MSIE [1-9]\./.test(navigator.userAgent))){var d=a.document.createElementNS("http://www.w3.org/1999/xhtml","a"),e="download"in d,k=/constructor/i.test(a.HTMLElement),c=/CriOS\/[\d]+/.test(navigator.userAgent),b=function(b){(a.setImmediate||a.setTimeout)(function(){throw b;},0)},f=function(b){setTimeout(function(){"string"===typeof b?(a.URL||a.webkitURL||a).revokeObjectURL(b):b.remove()},4E4)},m=function(a){return/^\s*(?:text\/\S*|application\/xml|\S*\/\S*\+xml)\s*;.*charset\s*=\s*utf-8/i.test(a.type)?
+new Blob([String.fromCharCode(65279),a],{type:a.type}):a},p=function(n,g,q){q||(n=m(n));var h=this,p="application/octet-stream"===n.type,l,r=function(){for(var a=["writestart","progress","write","writeend"],a=[].concat(a),d=a.length;d--;){var c=h["on"+a[d]];if("function"===typeof c)try{c.call(h,h)}catch(e){b(e)}}};q=function(){if((c||p&&k)&&a.FileReader){var b=new FileReader;b.onloadend=function(){var d=c?b.result:b.result.replace(/^data:[^;]*;/,"data:attachment/file;");a.open(d,"_blank")||(a.location.href=
+d);h.readyState=h.DONE;r()};b.readAsDataURL(n);h.readyState=h.INIT}else l||(l=(a.URL||a.webkitURL||a).createObjectURL(n)),p?a.location.href=l:a.open(l,"_blank")||(a.location.href=l),h.readyState=h.DONE,r(),f(l)};h.readyState=h.INIT;e?(l=(a.URL||a.webkitURL||a).createObjectURL(n),setTimeout(function(){d.href=l;d.download=g;var a=new MouseEvent("click");d.dispatchEvent(a);r();f(l);h.readyState=h.DONE})):q()},g=p.prototype;if("undefined"!==typeof navigator&&navigator.msSaveOrOpenBlob)return function(a,
+b,d){b=b||a.name||"download";d||(a=m(a));return navigator.msSaveOrOpenBlob(a,b)};g.abort=function(){};g.readyState=g.INIT=0;g.WRITING=1;g.DONE=2;g.error=g.onwritestart=g.onprogress=g.onwrite=g.onabort=g.onerror=g.onwriteend=null;return function(a,b,d){return new p(a,b||a.name||"download",d)}}}("undefined"!==typeof self&&self||"undefined"!==typeof window&&window||this.content);
+"undefined"!==typeof module&&module.exports?module.exports.saveAs=saveAs:"undefined"!==typeof define&&null!==define&&null!==define.amd&&define([],function(){return saveAs});var dropZone;
+function convert(){for(var a=document.getElementById("txt").value,d=a.split("\n"),e=d.length-1;0<=e;e--)""!=d[e]&&void 0!=d[e][0]||d.splice(e,1),document.getElementById("ignor").checked&&document.getElementById("ignorChars").value.length&&"undefined"!==typeof d[e]&&0===d[e][0].indexOf(document.getElementById("ignorChars").value)&&d.splice(e,1);if(document.getElementById("arr").checked){var e=[],k={};if(document.getElementById("filenames").checked&&-1!==a.indexOf("---\x3e"))for(var a="",c=0;c<d.length;c++)if(0===
+d[c].indexOf("---\x3e"))a=d[c].substr(15),k[a]=[],e.push(k);else{var b=d[c].split(/=(.+)?/);if(b&&1<b.length){var f=b[0].trim(),b=b[1].trim();if(f&&b){var m={};m[f]=unicodeToChar(b);k[a].push(m)}}}else for(c=0;c<d.length;c++)(b=d[c].split(/=(.+)?/))&&1<b.length&&(f=b[0].trim(),b=b[1].trim(),f&&b&&(m={},m[f]=unicodeToChar(b),e.push(m)))}else if(e={},document.getElementById("filenames").checked&&-1!==a.indexOf("---\x3e"))for(a="",c=0;c<d.length;c++)0===d[c].indexOf("---\x3e")?(a=d[c].substr(15),e[a]=
+{}):(b=d[c].split(/=(.+)?/))&&1<b.length&&(f=b[0].trim(),b=b[1].trim(),f&&b&&(e[a][f]=unicodeToChar(b)));else for(c=0;c<d.length;c++)(b=d[c].split(/=(.+)?/))&&1<b.length&&(f=b[0].trim(),b=b[1].trim(),f&&b&&(e[f]=b));document.getElementById("beautify").checked?document.getElementById("json").value=JSON.stringify(e,null,4):document.getElementById("json").value=JSON.stringify(e)}function handleDragOver(a){a.stopPropagation();a.preventDefault();a.dataTransfer.dropEffect="copy"}var filename="";
+function handleFileSelect(a){a.stopPropagation();a.preventDefault();a.target.value="";var d=a.dataTransfer.files,e=0;a=0;for(var k;k=d[a];a++){filename=d[a].name;var c=new FileReader;c.onload=function(a){return function(c){document.getElementById("filenames").checked?(c="---\x3e New File: "+a.name.split(".")[0]+"\n"+c.target.result,0<e&&(c="\n"+c),dropZone.value+=c):dropZone.value+=c.target.result;e++;e===d.length&&convert()}}(k);c.readAsText(k)}}
+function onPaste(a){setTimeout(function(){convert()},0)}function save(){var a=new Blob([document.getElementById("json").value],{type:"text/plain;charset=utf-8"});saveAs(a,""===filename?"output.json":filename+".json")}function unicodeToChar(a){return a.replace(/\\u[\dA-F]{4}/gi,function(a){return String.fromCharCode(parseInt(a.replace(/\\u/g,""),16))})}
+window.onload=function(){dropZone=document.getElementById("txt");dropZone.addEventListener("dragover",handleDragOver,!1);dropZone.addEventListener("drop",handleFileSelect,!1);(function(a,d,e,k,c,b,f){a.GoogleAnalyticsObject=c;a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[c].l=1*new Date;b=d.createElement(e);f=d.getElementsByTagName(e)[0];b.async=1;b.src=k;f.parentNode.insertBefore(b,f)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create","UA-84357618-1",
+"auto");ga("send","pageview")};
+    </script>
+</head>
+<body style="padding: 10px; background-color: #cacaca">
+    <h3 style="text-align: center">Text to JSON Converter</h3>
+    <p style="text-align: center">Convert key / value pairs to JSON objects. Perfect for converting .ini files, Flex localization files (i18n) and config files to JSON objects or arrays.</p>
+    <div style="width: 100%; text-align: center">
+        <label><input type="checkbox" name="ignor" id="ignor" checked>Ignor lines starting with: </label>
+        <input type="text" id="ignorChars" value="#" style="width: 70px">
+        <label style="margin-left: 20px"><input type="radio" name="mode" value="object" checked> Create one object</label>
+        <label><input id="arr" type="radio" name="mode" value="array"> Create an array of object</label>
+        <label style="margin-left: 20px"><input type="checkbox" name="filenames" id="filenames">Use file names as parent nodes</label>
+    </div>
+
+    <div style="margin-bottom: 2px; margin-top: 15px">
+        <span>Source (Paste text or drop file / files here)</span>
+    </div>
+    <textarea style="width: 100%; height: 40vh" id="txt" onpaste="onPaste()"></textarea>
+    <div style="margin-top: 5px; margin-bottom: 2px">
+        <span>JSON Output</span>
+        <label style="margin-left: 10px"><input type="checkbox" name="beautify" id="beautify" checked>Beautify</label>
+        <button onclick="save()" style="float: right">Save As</button>
+        <button onclick="convert()" style="float: right; margin-right: 10px">Convert Again</button>
+    </div>
+    <textarea style="width: 100%; height: 40vh" id="json"></textarea>
+
+</body>
+</html>
